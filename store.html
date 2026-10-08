@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZexoMC | Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+  <a class="logo" href="index.html">
+    Zexo<span>MC</span>
+  </a>
+
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="candidature.html">📝 Candidature</a>
+    <a class="active" href="store.html">🛒 Store</a>
+    <a href="https://discord.gg/uzQvc4CJg" target="_blank" rel="noopener noreferrer">💬 Discord</a>
+    <a href="staff.html">🔐 Staff</a>
+  </nav>
+
+</header>
+
+<main class="page">
+
+<section class="section">
+
+  <div class="section-title">
+
+```
+<div class="eyebrow">
+  ZEXOMC STORE
+</div>
+
+<h1>VIP SMP</h1>
+
+<p>
+  Scegli il tuo VIP e aggiungilo al carrello.
+</p>
+```
+
+  </div>
+
+  <div id="products" class="products"></div>
+
+  <div class="cart-box">
+
+```
+<div class="cart-head">
+
+  <h2>🛒 Il tuo carrello</h2>
+
+  <button
+    class="btn small secondary"
+    onclick="clearCart()">
+    Svuota
+  </button>
+
+</div>
+
+<div id="cart-items">
+
+  <p class="muted">
+    Il carrello è vuoto.
+  </p>
+
+</div>
+
+<div class="cart-total">
+
+  Totale:
+  <strong>
+    €<span id="cart-total">0.00</span>
+  </strong>
+
+</div>
+
+<button
+  id="checkout-btn"
+  class="btn primary full"
+  onclick="checkout()">
+
+  💳 Vai al pagamento
+
+</button>
+
+<p
+  id="checkout-message"
+  class="muted center">
+</p>
+```
+
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+  © 2026 ZexoMC — Store SMP
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

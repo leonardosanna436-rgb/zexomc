@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZexoMC | Staff</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+  <a class="logo" href="index.html">
+    Zexo<span>MC</span>
+  </a>
+
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="candidature.html">📝 Candidature</a>
+    <a href="store.html">🛒 Store</a>
+    <a href="https://discord.gg/uzQvc4CJg" target="_blank" rel="noopener noreferrer">💬 Discord</a>
+    <a class="active" href="staff.html">🔐 Staff</a>
+  </nav>
+
+</header>
+
+<main class="page">
+
+<section class="section staff-page">
+
+  <div class="section-title">
+
+```
+<div class="eyebrow">
+  ZEXOMC
+</div>
+
+<h1>Area Staff</h1>
+
+<p>
+  Pannello dedicato allo Staff di ZexoMC.
+</p>
+```
+
+  </div>
+
+  <div class="staff-warning">
+
+```
+<strong>🔐 Area riservata</strong>
+
+<p>
+  Questa pagina sarà collegata al sistema di accesso sicuro
+  dello Staff.
+</p>
+```
+
+  </div>
+
+  <div class="panel">
+
+```
+<h2>Accesso Staff</h2>
+
+<form id="staff-login-form">
+
+  <label>
+    Username
+
+    <input
+      id="staff-user"
+      type="text"
+      required>
+  </label>
+
+  <label>
+    Password
+
+    <input
+      id="staff-pass"
+      type="password"
+      required>
+  </label>
+
+  <button
+    class="btn primary"
+    type="submit">
+
+    🔐 Accedi
+
+  </button>
+
+</form>
+
+<p
+  id="staff-message"
+  class="muted">
+</p>
+```
+
+  </div>
+
+  <div class="panel">
+
+```
+<div class="cart-head">
+
+  <h2>Candidature</h2>
+
+  <button
+    class="btn small secondary"
+    type="button"
+    onclick="renderStaffApplications()">
+
+    🔄 Aggiorna
+
+  </button>
+
+</div>
+
+<div id="staff-applications">
+
+  <p class="muted">
+    Nessuna candidatura caricata.
+  </p>
+
+</div>
+```
+
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+  © 2026 ZexoMC — Staff
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

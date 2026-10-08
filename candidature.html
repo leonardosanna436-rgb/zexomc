@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZexoMC | Candidature</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+  <a class="logo" href="index.html">
+    Zexo<span>MC</span>
+  </a>
+
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a class="active" href="candidature.html">📝 Candidature</a>
+    <a href="store.html">🛒 Store</a>
+    <a href="https://discord.gg/uzQvc4CJg" target="_blank" rel="noopener noreferrer">💬 Discord</a>
+    <a href="staff.html">🔐 Staff</a>
+  </nav>
+
+</header>
+
+<main class="page">
+
+<section class="section">
+
+  <div class="section-title">
+
+```
+<div class="eyebrow">
+  ZEXOMC STAFF
+</div>
+
+<h1>Candidature</h1>
+
+<p>
+  Scegli il ruolo per cui vuoi candidarti.
+</p>
+```
+
+  </div>
+
+  <div class="role-grid">
+
+```
+<button
+  class="role-card"
+  type="button"
+  onclick="startApplication('Trial Staff')">
+
+  <div class="card-icon">🛡️</div>
+
+  <h2>Trial Staff</h2>
+
+  <p>
+    Candidatura Staff — 30 domande
+  </p>
+
+</button>
+
+<button
+  class="role-card"
+  type="button"
+  onclick="startApplication('Developer')">
+
+  <div class="card-icon">💻</div>
+
+  <h2>Developer</h2>
+
+  <p>
+    Candidatura Developer — 40 domande
+  </p>
+
+</button>
+
+<button
+  class="role-card"
+  type="button"
+  onclick="startApplication('Builder')">
+
+  <div class="card-icon">🏗️</div>
+
+  <h2>Builder</h2>
+
+  <p>
+    Candidatura Builder — 30 domande
+  </p>
+
+</button>
+```
+
+  </div>
+
+  <div
+    id="application-area"
+    class="application-area hidden">
+
+```
+<div class="form-head">
+
+  <button
+    class="btn small secondary"
+    type="button"
+    onclick="closeApplication()">
+
+    ← Torna ai ruoli
+
+  </button>
+
+  <h2 id="application-title">
+    Candidatura
+  </h2>
+
+</div>
+
+<form id="application-form">
+
+  <div id="questions"></div>
+
+  <button
+    class="btn primary full"
+    type="submit">
+
+    📩 Invia candidatura
+
+  </button>
+
+</form>
+```
+
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+  © 2026 ZexoMC — Candidature
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
